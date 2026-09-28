@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/pushcode",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Push CSV/TSV code tables for quick inspection and cleanup.",
+  "bin": {
+    "pushcode": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/pushcode.git"
+  },
+  "homepage": "https://theworker02.github.io/pushcode/",
+  "keywords": [
+    "push",
+    "code",
+    "csv",
+    "cli",
+    "toolkit"
+  ]
+}
